@@ -2,14 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
 }
 
-root {
+:root {
     --main-background: #0f172a;
     --text-color: #f1f5f9;
+    --nav-background: #dc2626; 
 }
 
 body {
     background-color: var(--main-background);
     color: var(--text-color);
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+nav {
+    background-color: var(--var-background);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li {
+    
 }
